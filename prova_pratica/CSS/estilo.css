@@ -1,0 +1,38 @@
+body {
+    background-color: indigo;
+    background-image: url(../_imagens/goku.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 30%;
+
+}
+
+#title {
+    font-family: cursive;
+    border-style: dotted;
+    border-radius: 10px;
+    text-align: center;
+    color: goldenrod;
+    background-color: darkmagenta;
+
+}
+
+fieldset {
+    border: gold;
+    border-style: solid;
+    padding: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+
+
+}
+
+#message {
+    margin: 15px;
+    resize: none;
+}
+#inputs input {
+    border-radius: 5px;
+}

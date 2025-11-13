@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+
+<body>
+    <h1 id="title">FORMULARIO SUPERAÇAIAJIN</h1>
+    <form id="inputs">
+        <fieldset>
+
+            <legend id="dados_pessoais">Dados pessoais</legend>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade"><br><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone"><br><br>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco"><br><br>
+            <label for="planeta">Planeta de Origem:</label><br>
+
+
+
+
+            <select name="planeta" id="planeta">
+                <option>Selecione uma opção</option>
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outros</option>
+            </select><br><br>
+
+        </fieldset>
+    </form>
+    <br>
+    <fieldset id="dados_extras">
+        <legend>Dados extras:</legend>
+        <label for="raca">Raça do Universo 7 preferida:</label>
+
+
+        <select name="raca" id="raca">
+            <option>Terráquio</option>
+            <option>Sayajin</option>
+            <option>Namekuseijin</option>
+            <option>Androide</option>
+            <option>Outros</option>
+
+        </select><br><br>
+        <label for="Job">Trabalho:</label>
+        <input type="radio" name="trabalho" id="trabalho" value="trabalho">
+        <label for="trabalho">Autonomo</label>
+        <input type="radio" name="CLT" id="CLT" value="CLT">
+        <label for="CLT">Empregado CLT</label>
+        <input type="radio" name="chefe" id="chefe" value="chefe">
+        <label for="chefe">Empresario</label>
+        <input type="radio" name="goku" id="goku" value="goku">
+        <label for="goku">Tipo Goku</label>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Seu açai é perfeito de que jeito?</legend>
+
+        <input type="checkbox" name="puro" id="puro" value="puro">
+        <label for="puro">Puro</label>
+        <input type="checkbox" name="banana" id="banana" value="banana">
+        <label for="banana">Com banana</label>
+        <input type="checkbox" name="morango" id="morango" value="morango">
+        <label for="morango">Com morango</label>
+        <input type="checkbox" name="granola" id="granola">
+        <label for="granola">Com granola</label>
+        <input type="checkbox" name="terra" id="terra">
+        <label for="terra">Tem gosto de Terra</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Qual tamanho preferido?</legend>
+
+        <input type="radio" name="500" id="500">
+        <label for="500">500ml</label>
+        <input type="radio" name="300" id="300">
+        <label for="300">300ml</label>
+        <input type="radio" name="100" id="100">
+        <label for="100">100ml</label>
+        <input type="radio" name="casquinha" id="casquinha">
+        <label for="casquinha">Casquinha</label>
+        <input type="radio" name="graveu" id="graveu">
+        <label for="graveu">Qual parte do gosto de terra voce não entendeu?</label>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label for="obs">Obeservação</label><br>
+        <textarea name="message" id="message" cols="195" rows="8"></textarea><br><br>
+    </fieldset>
+
+</body>
+
+</html>
