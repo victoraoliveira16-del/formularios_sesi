@@ -33,6 +33,7 @@ fieldset {
     margin: 15px;
     resize: none;
 }
+
 #inputs input {
     border-radius: 5px;
 }
